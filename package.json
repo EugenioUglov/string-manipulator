@@ -1,0 +1,38 @@
+{
+  "name": "string-manipulator",
+  "version": "1.0.0",
+  "description": "Utility package for string manipulation. Supports regular import (require/import) and running as a module (node string-manipulator.js).",
+  "main": "string-manipulator.cjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./string-manipulator.js",
+      "require": "./string-manipulator.cjs"
+    }
+  },
+  "files": [
+    "string-manipulator.js",
+    "string-manipulator.cjs",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node string-manipulator.js",
+    "demo": "node string-manipulator.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "string",
+    "manipulator",
+    "utilities",
+    "text-processing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/string-manipulator.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
