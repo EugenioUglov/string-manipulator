@@ -1,6 +1,6 @@
 {
-  "name": "string-manipulator",
-  "version": "1.0.0",
+  "name": "@eugeniouglov/string-manipulator",
+  "version": "1.0.2",
   "description": "Utility package for string manipulation. Supports regular import (require/import) and running as a module (node string-manipulator.js).",
   "main": "string-manipulator.cjs",
   "type": "module",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/string-manipulator.git"
+    "url": "https://github.com/eugeniouglov/string-manipulator.git"
   },
   "engines": {
     "node": ">=14.0.0"
